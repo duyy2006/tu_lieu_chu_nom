@@ -1,0 +1,14 @@
+{
+  "name": "kiem-ke-van-bia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Hồ sơ số tư liệu Hán Nôm còn trong cộng đồng — Kiểm kê văn bia trong di tích tại một xã",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

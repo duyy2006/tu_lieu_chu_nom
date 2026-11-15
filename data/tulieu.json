@@ -1,0 +1,868 @@
+{
+  "phienBan": 1,
+  "meta": {
+    "tenUngDung": "Kiểm kê văn bia trong di tích tại một xã",
+    "tenDiTich": "đình, chùa và văn chỉ",
+    "xa": "Sơn Lôi",
+    "huyen": "Bình Xuyên",
+    "tinh": "Vĩnh Phúc",
+    "diaChi": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Phúc (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+    "gioiThieu": "Hồ sơ số tập hợp 15 văn bia tại các đình, chùa, văn chỉ và cầu của xã Sơn Lôi (huyện Bình Xuyên, tỉnh Vĩnh Phúc), xây dựng từ dữ liệu thác bản văn bia do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm và công bố trên Vietnamica. Ảnh trong hồ sơ là ảnh số hóa từ bản thác bản, không phải ảnh chụp bia tại di tích. Toàn bộ bản ghi chưa được đối chiếu thực địa nên giữ mức “Chưa kiểm chứng”; phiên âm và dịch nghĩa chưa có trong nguồn. Địa danh hành chính được ghi theo thác bản; từ năm 2025 xã Sơn Lôi thuộc xã Bình Nguyên, tỉnh Phú Thọ.",
+    "lienHe": "",
+    "capNhat": "2026-11-15",
+    "nguonTuLieu": [
+      {
+        "ten": "Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)",
+        "moTa": "Bộ sưu tập 20.980 thác bản văn bia do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm. Là nguồn của 15 bản ghi và 17 ảnh trong hồ sơ.",
+        "lienKet": "https://gallery.vietnamica.online/"
+      },
+      {
+        "ten": "Viện Nghiên cứu Hán Nôm",
+        "moTa": "Đơn vị lưu giữ bộ thác bản văn bia và công bố dữ liệu tra cứu; trang thông tin về văn bia, thác bản và nghiên cứu Hán Nôm.",
+        "lienKet": "https://hannom.vass.gov.vn/"
+      },
+      {
+        "ten": "École française d'Extrême-Orient (EFEO)",
+        "moTa": "Cơ quan đã sưu tầm bộ thác bản văn bia Việt Nam trong giai đoạn 1910–1944.",
+        "lienKet": "https://www.efeo.fr/"
+      },
+      {
+        "ten": "Báo Nhân Dân — “Ấm áp tình làng nghĩa xóm ở Sơn Lôi” (1/4/2025)",
+        "moTa": "Bài báo giới thiệu 6 thôn của xã Sơn Lôi, 8 di tích lịch sử cấp tỉnh và việc các đình cổ thờ tướng lĩnh thời Hùng Vương; dùng để ghi nhận thần hiệu tại đình Ngọc Bảo và đình Yên Lão.",
+        "lienKet": "https://nhandan.vn/am-ap-tinh-lang-nghia-xom-o-son-loi-post869402.html"
+      },
+      {
+        "ten": "Wikipedia — “Bình Nguyên, Phú Thọ”",
+        "moTa": "Thông tin về việc hợp nhất xã Sơn Lôi vào xã Bình Nguyên (tỉnh Phú Thọ) và danh sách các thôn; dùng để đối chiếu địa danh hành chính hiện nay.",
+        "lienKet": "https://vi.wikipedia.org/wiki/B%C3%ACnh_Nguy%C3%AAn,_Ph%C3%BA_Th%E1%BB%8D"
+      },
+      {
+        "ten": "Thông tấn xã Việt Nam — “Cuộc sống nơi tâm dịch Sơn Lôi (Vĩnh Phúc)” (2020)",
+        "moTa": "Bài phóng sự nêu tên 6 thôn của xã Sơn Lôi: Ái Văn, Ngọc Bảo, Nhân Nghĩa, An Lão, Bá Cầu, Lương Câu.",
+        "lienKet": "https://vnanet.vn/vi/anh/anh-thoi-su-trong-nuoc-1014/cuoc-song-noi-tam-dich-covid-19-son-loi-vinh-phuc-4460710.html"
+      },
+      {
+        "ten": "Tạp chí Hán Nôm — “Thực trạng vấn đề ngụy tạo niên đại trong thác bản văn bia Việt Nam” (2006)",
+        "moTa": "Bài nghiên cứu cảnh báo một số thác bản văn bia có niên đại ngụy tạo; là căn cứ để toàn bộ hồ sơ giữ mức “chưa kiểm chứng” cho đến khi đối chiếu bản gốc.",
+        "lienKet": "http://hannom.vass.gov.vn/nghien-cuu-van-ban/thuc-trang-van-de-nguy-tao-nien-dai-trong-thac-ban-van-bia-viet-nam-tap-chi-han-nom-so-1-74-2006-tr-504980"
+      }
+    ],
+    "ghiNhan": [
+      "Viện Nghiên cứu Hán Nôm và EFEO — đơn vị sưu tầm, lưu giữ và số hóa bộ thác bản văn bia",
+      "Cơ sở dữ liệu Vietnamica — nơi công bố dữ liệu và ảnh thác bản",
+      "Báo Nhân Dân, Thông tấn xã Việt Nam và Wikipedia — tư liệu đối chiếu về địa danh, di tích",
+      "Nhóm 2 — Chương trình Thực tập sinh Đợt 15 FPT Polytechnic và IMTA TECH"
+    ]
+  },
+  "records": [
+    {
+      "id": "SL-15343",
+      "title": "Tu tạo mộc kiều bi kí — Bia ghi việc sửa cầu gỗ",
+      "creator": "",
+      "subject": "Sinh hoạt làng xã; xây dựng cầu gỗ",
+      "description": "Các vị quan viên, thiện nam tín nữ trong thôn Yên Lão, xã Sơn Lôi, huyện Bình Tuyền cùng khách thập phương, người ít kẻ nhiều, đóng góp tiền của để xây dựng chiếc cầu gỗ, giúp việc đi lại được thuận tiện. Bia ghi họ tên của từng người, ước khoảng 250 người. Trong bia có chữ “tuyền” là tên huyện bị đục.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Cảnh Hưng thứ 43 (1782)",
+      "type": "Văn bia",
+      "format": "Đá; 2 mặt; 50 dòng; khoảng 3.000 chữ; 58 × 96 cm",
+      "identifier": "SL-15343 / Thác bản No. 15343–15344",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15343–15344 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Cầu thôn Yên Lão, xã Sơn Lôi, tổng Sơn Lôi, huyện Bình Tuyền, phủ Phú Bình",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "Theo thác bản: trong bia có chữ “tuyền” là tên huyện bị đục.",
+      "soDangKy": "Thác bản No. 15343–15344",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Cảnh Hưng",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia cầu đường",
+      "anh": [
+        {
+          "tep": "images/son-loi-15343-mat1.jpg",
+          "thumb": "images/thumbs/son-loi-15343-mat1.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Tu tạo mộc kiều bi kí, mặt 1 (No. 15343)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        },
+        {
+          "tep": "images/son-loi-15343-mat2.jpg",
+          "thumb": "images/thumbs/son-loi-15343-mat2.jpg",
+          "loai": "mat-sau",
+          "moTa": "Thác bản bia Tu tạo mộc kiều bi kí, mặt 2 (No. 15344)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15349",
+      "title": "Hậu Phật bi kí — Bia hậu Phật",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Hai bà họ Đỗ, hiệu Diệu Vinh, và bà Nguyễn Thị Huyên cúng tiền cho xã để chi dùng vào việc công (nguồn không ghi cụ thể là việc gì), được bầu làm Hậu Phật.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Chiêu Thống thứ 1 (1787)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 9 dòng; khoảng 100 chữ; 42 × 75 cm",
+      "identifier": "SL-15349 / Thác bản No. 15349",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15349 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Chùa Linh Đa, thôn Ái Liên, xã Sơn Lôi, huyện Bình Tuyền",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "Theo thác bản: bia mờ, mất một số chữ.",
+      "soDangKy": "Thác bản No. 15349",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Chiêu Thống",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15349.jpg",
+          "thumb": "images/thumbs/son-loi-15349.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Hậu Phật bi kí (No. 15349)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15337",
+      "title": "Hậu Phật bi kí — Bia hậu Phật",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Ông Phúc Ninh cùng vợ, tên hiệu Diệu Tín, giúp làng 10 quan cổ tiền cùng một số thửa ruộng để làng chi dùng, được bầu làm Hậu Phật. Bia ghi số ruộng và một số vật dùng trong ngày giỗ ông bà.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Minh Mệnh thứ 8 (1827)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 13 dòng; khoảng 250 chữ; 38 × 72 cm",
+      "identifier": "SL-15337 / Thác bản No. 15337",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15337 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Chùa Báo Ân, thôn Yên Lão, xã Sơn Lôi, huyện Bình Tuyền, phủ Phú Bình",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "Theo thác bản: trong bia có 3 chữ “Tuyền, tự, phúc” bị đục.",
+      "soDangKy": "Thác bản No. 15337",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Minh Mệnh",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15337.jpg",
+          "thumb": "images/thumbs/son-loi-15337.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Hậu Phật bi kí (No. 15337)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15338",
+      "title": "Hậu Phật bi kí — Bia hậu Phật",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Ba bà, tên hiệu Diệu Túc, Diệu Thụy, Diệu Hạnh, bỏ ra 15 quan tiền cùng một số ruộng cho làng chi dùng, được dân bầu làm Hậu Phật. Bia ghi 3 điều lệ của xã dành cho các Hậu Phật.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Minh Mệnh thứ 8 (1827)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 14 dòng; khoảng 500 chữ; 43 × 84 cm",
+      "identifier": "SL-15338 / Thác bản No. 15338",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15338 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Chùa Báo Ân, thôn Yên Lão, xã Sơn Lôi, huyện Bình Tuyền, phủ Phú Bình",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "Theo thác bản: trong bia có chữ “Tuyền” là tên huyện bị đục.",
+      "soDangKy": "Thác bản No. 15338",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Minh Mệnh",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15338.jpg",
+          "thumb": "images/thumbs/son-loi-15338.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Hậu Phật bi kí (No. 15338)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15332",
+      "title": "Hậu Phật bi kí — Bia hậu Phật",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Bà Nguyễn Thị Đảo, hiệu Diệu Cần, bỏ ra 5 quan tiền cho làng tu sửa cầu, nên được bầu làm Hậu Phật. Về ngày giỗ sau này, xã lo hương đèn theo quy định.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Thiệu Trị thứ 3 (1843)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 11 dòng; khoảng 200 chữ; 35 × 60 cm",
+      "identifier": "SL-15332 / Thác bản No. 15332",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15332 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Chùa Báo Ân, thôn Yên Lão, xã Sơn Lôi, huyện Bình Xuyên, phủ Phú Bình, xứ Thái Nguyên",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "",
+      "soDangKy": "Thác bản No. 15332",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Thiệu Trị",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15332.jpg",
+          "thumb": "images/thumbs/son-loi-15332.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Hậu Phật bi kí (No. 15332)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15335",
+      "title": "Hậu Phật bi kí — Bia hậu Phật",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Dân trong thôn phải chịu quan dịch nặng nề, thiếu tiền chi dùng, bầu bốn bà (phần tóm tắt trong cơ sở dữ liệu bị ngắt ở đây, chưa ghi tiếp nội dung).",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Tự Đức thứ 18 (1865)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 12 dòng; khoảng 350 chữ; 43 × 82 cm",
+      "identifier": "SL-15335 / Thác bản No. 15335",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15335 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Chùa Báo Ân, thôn Yên Lão, xã Sơn Lôi, huyện Bình Xuyên, phủ Phú Bình, tỉnh Thái Nguyên",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "",
+      "soDangKy": "Thác bản No. 15335",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Tự Đức",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15335.jpg",
+          "thumb": "images/thumbs/son-loi-15335.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Hậu Phật bi kí (No. 15335)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15345",
+      "title": "Văn chỉ bi kí — Bia văn chỉ",
+      "creator": "",
+      "subject": "Xây dựng, trùng tu di tích; văn chỉ",
+      "description": "Xã có văn chỉ từ lâu đời nay đã đổ nát, việc tu sửa rất tốn kém; mọi người trong xã cùng nhau bỏ tiền của trùng tu. Khi hoàn thành, bia quy định một số điều lệ.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Tự Đức thứ 27 (1874)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 43 dòng; khoảng 1.200 chữ; 15 × 65 cm",
+      "identifier": "SL-15345 / Thác bản No. 15345",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15345 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Văn chỉ xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "Theo thác bản: bia mờ, mất một số chữ.",
+      "soDangKy": "Thác bản No. 15345",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Tự Đức",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia văn chỉ",
+      "anh": [
+        {
+          "tep": "images/son-loi-15345.jpg",
+          "thumb": "images/thumbs/son-loi-15345.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Văn chỉ bi kí (No. 15345)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15318",
+      "title": "Hậu Phật bi kí — Bia hậu Phật",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Ông Trực Phúc và bà tên hiệu Diệu Trà, đều là người thôn Ngọc Bảo, xuất tiền cho xã sửa chùa; cả hai người được bầu làm Hậu Phật.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Đồng Khánh thứ 2 (1887)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 13 dòng; khoảng 100 chữ; 55 × 80 cm",
+      "identifier": "SL-15318 / Thác bản No. 15318",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15318 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Chùa Linh Sơn, thôn Ngọc Bảo, xã Sơn Lôi, tổng Sơn Lôi, huyện Bình Xuyên, phủ Phú Bình",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "Theo thác bản: bia mờ, mất một số chữ.",
+      "soDangKy": "Thác bản No. 15318",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Đồng Khánh",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15318.jpg",
+          "thumb": "images/thumbs/son-loi-15318.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Hậu Phật bi kí (No. 15318)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15324",
+      "title": "Hậu Thần bi kí — Bia hậu thần",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Thôn Yên Lão có các việc mua đồ tế khí, cấp thêm quân, làm sổ sách tốn kém nhiều; bà họ Nguyễn, húy Ngạn, hiệu Diệu Đăng, tự nguyện bỏ ra 100 quan tiền và 3 sào ruộng ứng vào công việc, nên được bầu làm Hậu Thần. Bia ghi 3 điều quy định về việc giúp Hậu Thần.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Đồng Khánh thứ 2 (1887)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 10 dòng; khoảng 200 chữ; 47 × 78 cm",
+      "identifier": "SL-15324 / Thác bản No. 15324",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15324 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm. Đình được Báo Nhân Dân (2025) giới thiệu là nơi thờ các tướng lĩnh thời Hùng Vương.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Đình thôn Yên Lão (An Lão), xã Sơn Lôi, huyện Bình Xuyên, phủ Phú Bình",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "",
+      "soDangKy": "Thác bản No. 15324",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Đồng Khánh",
+      "thanHieu": "Tướng lĩnh thời Hùng Vương",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15324.jpg",
+          "thumb": "images/thumbs/son-loi-15324.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Hậu Thần bi kí (No. 15324)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15346",
+      "title": "Bản thôn điều lệ bi kí — Bia điều lệ thôn",
+      "creator": "",
+      "subject": "Thỏa thuận hương ước",
+      "description": "Các vị quan viên, hương lão, sắc mục cùng toàn thể người thôn Ái Liên họp bàn, định ra 19 điều lệ để mọi người trong xã tuân thủ. Trong đó có các khoản mừng người thi đỗ, miễn lao dịch cho người đi học, bầu trùm, tuần phòng trong xã, tranh chấp ruộng đất.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Thành Thái thứ 1 (1889)",
+      "type": "Văn bia",
+      "format": "Đá; 2 mặt; 44 dòng; khoảng 3.000 chữ; 70 × 110 cm",
+      "identifier": "SL-15346 / Thác bản No. 15346–15347",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15346–15347 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Đình thôn Ái Liên, xã Sơn Lôi, tổng Sơn Lôi, huyện Bình Xuyên, phủ Phú Bình",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "",
+      "soDangKy": "Thác bản No. 15346–15347",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Thành Thái",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia điều lệ",
+      "anh": [
+        {
+          "tep": "images/son-loi-15346-mat1.jpg",
+          "thumb": "images/thumbs/son-loi-15346-mat1.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Bản thôn điều lệ bi kí, mặt 1 (No. 15346)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        },
+        {
+          "tep": "images/son-loi-15346-mat2.jpg",
+          "thumb": "images/thumbs/son-loi-15346-mat2.jpg",
+          "loai": "mat-sau",
+          "moTa": "Thác bản bia Bản thôn điều lệ bi kí, mặt 2 (No. 15347)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15354",
+      "title": "Bản thôn Hậu Phật bi kí — Bia hậu Phật của thôn",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Bà họ Dương, tên hiệu Diệu Thắng, đóng góp cho xã 30 quan tiền và 3 sào ruộng dùng vào việc công (nguồn không ghi rõ việc gì), được bầu làm Hậu Phật. Bia ghi một số quy định về kính biếu lễ vật khi còn sống và hưởng giỗ khi qua đời tại chùa.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Khải Định thứ 1 (1916)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 17 dòng; khoảng 500 chữ; 50 × 80 cm",
+      "identifier": "SL-15354 / Thác bản No. 15354",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15354 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Chùa Ba La, thôn Văn Trù, xã Sơn Lôi, tổng Sơn Lôi, huyện Bình Xuyên",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "Theo thác bản: bia mờ, mất nhiều chữ.",
+      "soDangKy": "Thác bản No. 15354",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Khải Định",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15354.jpg",
+          "thumb": "images/thumbs/son-loi-15354.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Bản thôn Hậu Phật bi kí (No. 15354)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15329",
+      "title": "Hậu đình bi kí — Bia hậu đình",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Dân có việc tu sửa chùa, sắm đồ tế khí, chi phí nhiều; ông Nguyễn Văn Đài cùng vợ Nguyễn Thị Sử xuất ra 60 quan tiền và 6 sào ruộng cho làng dùng. Ông bà được bầu làm Hậu Thần. Bia ghi một số quy định về việc biếu và giỗ mà ông bà được hưởng.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Khải Định thứ 7 (1922)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 18 dòng; khoảng 700 chữ; 50 × 85 cm",
+      "identifier": "SL-15329 / Thác bản No. 15329",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15329 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm. Đình được Báo Nhân Dân (2025) giới thiệu là nơi thờ các tướng lĩnh thời Hùng Vương.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Đình thôn Yên Lão, xã Sơn Lôi, tổng Sơn Lôi, huyện Bình Xuyên, phủ Vĩnh Tường, tỉnh Vĩnh Yên",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "",
+      "soDangKy": "Thác bản No. 15329",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Khải Định",
+      "thanHieu": "Tướng lĩnh thời Hùng Vương",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15329.jpg",
+          "thumb": "images/thumbs/son-loi-15329.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Hậu đình bi kí (No. 15329)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15330",
+      "title": "Hậu đình bi kí — Bia hậu đình",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Tiền đường và Tam Quan của chùa Báo Ân trải lâu ngày bị hư hại; bà Nguyễn Thị Túy, vợ ông Phó lý Nguyễn Phúc Niên, cúng 80 đồng bạc để xã sửa chữa. Bà bỏ thêm 6 sào ruộng chi phí hương đèn. Dân xã cho vợ chồng bà thờ phối hưởng ở đình làng. Bia ghi các thửa ruộng và lễ nghi theo quy định.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Bảo Đại thứ 2 (1927)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 13 dòng; khoảng 600 chữ; 53 × 83 cm",
+      "identifier": "SL-15330 / Thác bản No. 15330",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15330 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm. Đình được Báo Nhân Dân (2025) giới thiệu là nơi thờ các tướng lĩnh thời Hùng Vương.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Đình thôn Yên Lão, xã Sơn Lôi, tổng Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "",
+      "soDangKy": "Thác bản No. 15330",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Bảo Đại",
+      "thanHieu": "Tướng lĩnh thời Hùng Vương",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15330.jpg",
+          "thumb": "images/thumbs/son-loi-15330.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Hậu đình bi kí (No. 15330)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15317",
+      "title": "Hậu hiền bi kí — Bia hậu hiền",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Bà Nguyễn Thị Bồi có chồng và con trai bất hạnh qua đời từ rất sớm, muốn có chỗ gửi giỗ về sau, đã cùng các em gái và con rể cúng cho xã 200 quan tiền và 1 mẫu 7 sào ruộng để sửa chữa chùa. Dân cho bố mẹ và chồng con của bà hưởng giỗ tại đình theo quy định.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Bảo Đại thứ 4 (1929)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 18 dòng; khoảng 200 chữ; 15 × 55 cm",
+      "identifier": "SL-15317 / Thác bản No. 15317",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15317 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm. Đình được Báo Nhân Dân (2025) giới thiệu là nơi thờ các tướng lĩnh thời Hùng Vương.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Đình thôn Ngọc Bảo, xã Sơn Lôi, tổng Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "Theo thác bản: bia mờ, mất một số chữ.",
+      "soDangKy": "Thác bản No. 15317",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Bảo Đại",
+      "thanHieu": "Tướng lĩnh thời Hùng Vương",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15317.jpg",
+          "thumb": "images/thumbs/son-loi-15317.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Hậu hiền bi kí (No. 15317)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    },
+    {
+      "id": "SL-15348",
+      "title": "Dương thị Hậu hiền bi — Bia hậu hiền họ Dương",
+      "creator": "",
+      "subject": "Bầu Hậu, gửi giỗ, biểu dương việc thiện",
+      "description": "Xã có ngôi chùa cổ trên núi, tam quan đã đổ nát; bà hiệu Diệu Phúc cúng cho xã 100 đồng để tu sửa chùa, đồng thời xuất 4 sào ruộng để chi phí đèn hương. Dân xã bầu ông bà của bà là Dương Phúc Bảng và Nguyễn Thị Từ Huyền làm Hậu Hiền. Bia có bài minh 16 câu ca ngợi công đức của bà.",
+      "publisher": "Viện Nghiên cứu Hán Nôm – EFEO (Cơ sở dữ liệu Thác bản văn bia Hán Nôm)",
+      "contributor": "EFEO sưu tầm thác bản (1910–1944); Viện Nghiên cứu Hán Nôm lưu giữ",
+      "date": "Bảo Đại thứ 6 (1931)",
+      "type": "Văn bia",
+      "format": "Đá; 1 mặt; 14 dòng; khoảng 380 chữ; 60 × 96 cm",
+      "identifier": "SL-15348 / Thác bản No. 15348",
+      "source": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm, mục 15348 (truy cập ngày 15/11/2026): https://gallery.vietnamica.online/",
+      "language": "Hán văn",
+      "relation": "Thuộc bộ sưu tập 20.980 thác bản văn bia Việt Nam do EFEO sưu tầm (1910–1944), hiện lưu tại Viện Nghiên cứu Hán Nôm.",
+      "coverage": "Xã Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên (nay thuộc xã Bình Nguyên, tỉnh Phú Thọ)",
+      "rights": "Ảnh thác bản: Viện Nghiên cứu Hán Nôm – EFEO, công bố qua Vietnamica (gallery.vietnamica.online). Hồ sơ học tập phi lợi nhuận, đề nghị ghi rõ nguồn khi trích dẫn.",
+      "noiLuuGiuHienNay": "Viện Nghiên cứu Hán Nôm (bản thác bản). Vị trí hiện tại của bia gốc chưa được xác minh trong đợt kiểm kê này.",
+      "noiLuuGiuTaiThoiDiem": "Đình thôn Ái Liên, xã Sơn Lôi, tổng Sơn Lôi, huyện Bình Xuyên, tỉnh Vĩnh Yên",
+      "loaiBanDangHienThi": "Ảnh số hóa từ bản thác bản (bản dập giấy)",
+      "tinhTrangBanGoc": "",
+      "soDangKy": "Thác bản No. 15348",
+      "nguoiChoPhepCongBo": "Chưa xác định trong đợt kiểm kê; ảnh lấy từ cơ sở dữ liệu công khai Vietnamica.",
+      "phamViDuocPhep": "Chưa xác định phạm vi cho phép. Hồ sơ chỉ hiển thị ảnh thác bản và phần tóm tắt do cơ sở dữ liệu công bố; không công bố phiên âm, dịch nghĩa đầy đủ.",
+      "phanKhongCongBo": "Chưa có phiên âm và dịch nghĩa đầy đủ trong hồ sơ; chỉ công bố ảnh thác bản và phần tóm tắt nội dung do cơ sở dữ liệu cung cấp.",
+      "mucKiemChung": "chua-kiem-chung",
+      "nienHieu": "Bảo Đại",
+      "thanHieu": "",
+      "loaiTuLieu": "Bia hậu",
+      "anh": [
+        {
+          "tep": "images/son-loi-15348.jpg",
+          "thumb": "images/thumbs/son-loi-15348.jpg",
+          "loai": "toan-trang",
+          "moTa": "Thác bản bia Dương thị Hậu hiền bi (No. 15348)",
+          "nguon": "Viện Nghiên cứu Hán Nôm – EFEO, Cơ sở dữ liệu Thác bản văn bia Hán Nôm (Vietnamica)."
+        }
+      ],
+      "phienAm": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": ""
+      },
+      "dichNghia": {
+        "noiDung": "",
+        "mucKiemChung": "chua-kiem-chung",
+        "nguoiKiem": "",
+        "ngayKiem": "",
+        "ghiChu": "Chưa có bản dịch đầy đủ. Trường Mô tả là phần tóm tắt nội dung do cơ sở dữ liệu Thác bản văn bia cung cấp, không phải bản dịch toàn văn."
+      }
+    }
+  ]
+}

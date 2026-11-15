@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kiểm kê văn bia trong di tích tại một xã</title>
+    <meta name="description" content="Hồ sơ số tư liệu Hán Nôm còn trong cộng đồng: kiểm kê văn bia trong di tích tại một xã, tra cứu ảnh, phiên âm, dịch nghĩa và mức kiểm chứng.">
+    <meta name="theme-color" content="#f6f1e6">
+    <meta name="color-scheme" content="light">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua điều hướng, đến nội dung chính</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#/" aria-label="Kiểm kê văn bia — về trang chủ">
+          <span class="seal" aria-hidden="true">碑</span>
+          <span class="brand-text">
+            <span class="brand-title">Kiểm kê văn bia</span>
+            <span class="brand-sub">Tư liệu Hán Nôm còn trong cộng đồng</span>
+          </span>
+        </a>
+
+        <nav class="site-nav" id="site-nav" aria-label="Điều hướng chính">
+          <a href="#/" data-nav="trang-chu">Trang chủ</a>
+          <a href="#/tu-lieu" data-nav="tu-lieu">Tư liệu</a>
+          <a href="#/hoi-dap" data-nav="hoi-dap">Hỏi đáp</a>
+          <a href="#/nguon" data-nav="nguon">Nguồn &amp; ghi nhận</a>
+          <a href="#/gioi-thieu" data-nav="gioi-thieu">Giới thiệu</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn secondary export-btn" type="button" data-action="export" aria-label="Xuất toàn bộ dữ liệu công bố ra tệp JSON" title="Xuất toàn bộ dữ liệu công bố ra tệp JSON">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12"></path><path d="m7 10 5 5 5-5"></path><path d="M5 21h14"></path>
+            </svg>
+            <span>Xuất dữ liệu</span>
+          </button>
+        </div>
+
+        <button class="menu-toggle" type="button" data-action="toggle-menu" aria-expanded="false" aria-controls="site-nav" aria-label="Mở menu">
+          <svg class="icon icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"></path>
+          </svg>
+          <svg class="icon icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+            <path d="m6 6 12 12M18 6 6 18"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <div id="app">
+        <div class="container page-loading" role="status">
+          <div class="skeleton wide"></div>
+          <div class="skeleton"></div>
+          <div class="skeleton" style="width: 56%"></div>
+          <p style="margin-top: 28px">Đang tải hồ sơ tư liệu…</p>
+        </div>
+      </div>
+      <noscript>
+        <div class="container">
+          <div class="callout warn" style="margin-top: 24px">
+            <div>
+              <strong>Ứng dụng cần JavaScript để hoạt động.</strong>
+              <p>Vui lòng bật JavaScript trong trình duyệt hoặc xem tệp <code>data/tulieu.json</code> trực tiếp.</p>
+            </div>
+          </div>
+        </div>
+      </noscript>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <span class="seal" aria-hidden="true">碑</span>
+            <strong>Kiểm kê văn bia</strong>
+            <p>Hồ sơ số tư liệu Hán Nôm còn lưu giữ tại di tích và trong cộng đồng. Tra cứu thuận tiện, ghi rõ nguồn, tôn trọng bản gốc.</p>
+          </div>
+
+          <div class="footer-col">
+            <h3>Hồ sơ</h3>
+            <a href="#/">Trang chủ</a>
+            <a href="#/tu-lieu">Danh sách tư liệu</a>
+            <a href="#/hoi-dap">Hỏi đáp</a>
+            <a href="#/nguon">Nguồn &amp; ghi nhận</a>
+            <a href="#/gioi-thieu">Giới thiệu</a>
+          </div>
+
+          <div class="footer-col">
+            <h3>Nguyên tắc</h3>
+            <span>Không suy đoán, không bịa thông tin</span>
+            <span>Không sinh ảnh tư liệu</span>
+            <span>Luôn gắn nhãn kiểm chứng</span>
+            <span>Khoá API không đặt ở trình duyệt</span>
+          </div>
+
+          <div class="footer-col">
+            <h3>Thực hiện</h3>
+            <span>Võ Đức Duy — PH62905</span>
+            <span>Nhóm 2</span>
+            <span>Thực tập sinh Đợt 15 FPT Polytechnic và IMTA TECH</span>
+            <span>Dự án xã hội phi lợi nhuận</span>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© <span id="year">2026</span> Kiểm kê văn bia trong di tích tại một xã. Ứng dụng không thay thế bản gốc.</p>
+          <p>Dữ liệu công bố theo phạm vi được phép của từng bản ghi.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="assets/js/app.js"></script>
+  </body>
+</html>

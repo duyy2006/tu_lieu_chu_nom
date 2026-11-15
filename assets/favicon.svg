@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Biểu tượng bia đá">
+  <rect width="64" height="64" rx="14" fill="#8c2f24"/>
+  <rect x="6" y="6" width="52" height="52" rx="10" fill="none" stroke="#f7e9d2" stroke-opacity=".45" stroke-width="1.5"/>
+  <path d="M22 48V22a10 10 0 0 1 20 0v26" fill="none" stroke="#fdf6ea" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M26 31h12M26 37h12M26 43h8" stroke="#fdf6ea" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M18 48h28" stroke="#fdf6ea" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
