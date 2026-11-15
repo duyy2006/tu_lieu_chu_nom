@@ -646,7 +646,8 @@ function isOverviewQuestion(question) {
 }
 
 function allowRequest(req) {
-  const ip = req.socket.remoteAddress || 'unknown';
+  const forwarded = String(req.headers?.['x-forwarded-for'] || '').split(',')[0].trim();
+  const ip = forwarded || req.socket?.remoteAddress || 'unknown';
   const now = Date.now();
   const windowMs = 60 * 1000;
   let bucket = rateBuckets.get(ip);
@@ -666,6 +667,31 @@ function allowRequest(req) {
 }
 
 async function readJsonBody(req, limit) {
+  // Vercel/Node functions có thể đã phân tích sẵn JSON vào req.body.
+  if (req.body !== undefined) {
+    const body = req.body;
+    if (body === null || body === '') return {};
+    if (Buffer.isBuffer(body)) {
+      try {
+        return JSON.parse(body.toString('utf8'));
+      } catch {
+        const error = new Error('Dữ liệu JSON không hợp lệ.');
+        error.status = 400;
+        throw error;
+      }
+    }
+    if (typeof body === 'string') {
+      try {
+        return JSON.parse(body);
+      } catch {
+        const error = new Error('Dữ liệu JSON không hợp lệ.');
+        error.status = 400;
+        throw error;
+      }
+    }
+    if (typeof body === 'object') return body;
+  }
+
   return new Promise((resolve, reject) => {
     let size = 0;
     let tooLarge = false;
@@ -842,19 +868,26 @@ function applySecurityHeaders(res) {
   );
 }
 
-server.listen(PORT, () => {
-  console.log('');
-  console.log('  KIỂM KÊ VĂN BIA — HỒ SƠ SỐ TƯ LIỆU HÁN NÔM');
-  console.log(`  Địa chỉ: http://localhost:${PORT}`);
-  console.log(`  Gemini:  ${GEMINI_API_KEY ? `đã cấu hình (${GEMINI_MODEL})` : 'CHƯA cấu hình — thêm GEMINI_API_KEY vào .env'}`);
-  console.log('');
-});
+const entryPath = process.argv[1] ? path.resolve(process.argv[1]) : '';
+const isMainModule = entryPath === fileURLToPath(import.meta.url);
 
-server.on('error', (error) => {
-  if (error.code === 'EADDRINUSE') {
-    console.error(`Cổng ${PORT} đang được sử dụng. Hãy đổi PORT trong tệp .env hoặc dừng ứng dụng đang chạy.`);
-  } else {
-    console.error('Không khởi động được máy chủ:', error);
-  }
-  process.exit(1);
-});
+if (isMainModule) {
+  server.listen(PORT, () => {
+    console.log('');
+    console.log('  KIỂM KÊ VĂN BIA — HỒ SƠ SỐ TƯ LIỆU HÁN NÔM');
+    console.log(`  Địa chỉ: http://localhost:${PORT}`);
+    console.log(`  Gemini:  ${GEMINI_API_KEY ? `đã cấu hình (${GEMINI_MODEL})` : 'CHƯA cấu hình — thêm GEMINI_API_KEY vào .env'}`);
+    console.log('');
+  });
+
+  server.on('error', (error) => {
+    if (error.code === 'EADDRINUSE') {
+      console.error(`Cổng ${PORT} đang được sử dụng. Hãy đổi PORT trong tệp .env hoặc dừng ứng dụng đang chạy.`);
+    } else {
+      console.error('Không khởi động được máy chủ:', error);
+    }
+    process.exit(1);
+  });
+}
+
+export { applySecurityHeaders, handleApi, sendJson };
