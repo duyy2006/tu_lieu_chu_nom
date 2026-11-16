@@ -4,7 +4,10 @@ import { fileURLToPath } from 'node:url';
 import { readFile, stat } from 'node:fs/promises';
 import { existsSync, readFileSync } from 'node:fs';
 
-const ROOT = path.dirname(fileURLToPath(import.meta.url));
+const MODULE_DIR = path.dirname(fileURLToPath(import.meta.url));
+// Trên Vercel, hàm có thể được đóng gói lại; ưu tiên thư mục chứa dữ liệu,
+// sau đó mới đến thư mục làm việc của tiến trình.
+const ROOT = existsSync(path.join(MODULE_DIR, 'data', 'tulieu.json')) ? MODULE_DIR : process.cwd();
 loadDotEnv();
 
 const PORT = Number(process.env.PORT) || 3000;
@@ -871,7 +874,7 @@ function applySecurityHeaders(res) {
 const entryPath = process.argv[1] ? path.resolve(process.argv[1]) : '';
 const isMainModule = entryPath === fileURLToPath(import.meta.url);
 
-if (isMainModule) {
+if (isMainModule && !process.env.VERCEL) {
   server.listen(PORT, () => {
     console.log('');
     console.log('  KIỂM KÊ VĂN BIA — HỒ SƠ SỐ TƯ LIỆU HÁN NÔM');

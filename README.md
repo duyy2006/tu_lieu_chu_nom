@@ -51,20 +51,29 @@ Nếu chưa cấu hình khoá, toàn bộ chức năng tra cứu, lọc, xuất 
 ```
 .
 ├── index.html               # khung giao diện, điều hướng, footer
+├── vercel.json              # cấu hình build/output/function cho Vercel
 ├── server.mjs               # máy chủ tĩnh + proxy Gemini (Node, không phụ thuộc gói ngoài)
 ├── package.json
 ├── .env.example
+├── api/                     # hàm máy chủ dùng khi triển khai Vercel
+│   ├── config.mjs
+│   ├── health.mjs
+│   ├── hoi-dap.mjs
+│   └── phien-am.mjs
+├── scripts/
+│   └── build-vercel.mjs     # tạo public/ cho bản deploy
 ├── data/
 │   └── tulieu.json          # nguồn dữ liệu duy nhất
 ├── images/                  # ảnh số hóa, đặt tên theo mã bản ghi
 │   └── README.md
-└── assets/
-    ├── css/style.css
-    ├── js/app.js            # điều hướng, tương tác, gọi API
-    ├── js/store.js          # nạp, chuẩn hóa, lọc, xuất dữ liệu
-    ├── js/views.js          # 6 màn hình
-    ├── js/utils.js
-    └── favicon.svg
+├── assets/
+│   ├── css/style.css
+│   ├── js/app.js            # điều hướng, tương tác, gọi API
+│   ├── js/store.js          # nạp, chuẩn hóa, lọc, xuất dữ liệu
+│   ├── js/views.js          # 6 màn hình
+│   ├── js/utils.js
+│   └── favicon.svg
+└── public/                  # sinh tự động bởi npm run build; không commit
 ```
 
 ---
@@ -271,6 +280,39 @@ Các khóa nội bộ bắt đầu bằng `_` (nếu có) sẽ bị loại bỏ.
 ---
 
 ## 7. Triển khai
+
+### Triển khai trên Vercel
+
+Ứng dụng dùng cấu hình tĩnh + hàm máy chủ trong `vercel.json`:
+
+- **Root Directory:** để trống hoặc `.` (thư mục gốc của kho mã). Không trỏ vào `public/`.
+- **Framework Preset:** `Other`.
+- **Build Command:** `npm run build`.
+- **Output Directory:** `public`.
+- **Install Command:** để mặc định (`npm install`).
+
+Khi build, `scripts/build-vercel.mjs` tạo thư mục `public/` gồm `index.html`, `assets/`, `data/`, `images/`. Thư mục này **được sinh tự động và không commit** (đã nằm trong `.gitignore`). Các hàm trong `api/` dùng `server.mjs` để xử lý `/api/config`, `/api/health`, `/api/hoi-dap`, `/api/phien-am`; `vercel.json` khai báo `includeFiles` để hàm đọc được `data/tulieu.json` và ảnh.
+
+Thêm biến môi trường cho Gemini (nếu dùng):
+
+```
+GEMINI_API_KEY=...
+GEMINI_MODEL=gemini-2.5-flash
+```
+
+Sau khi thêm/sửa biến môi trường hoặc `vercel.json`, cần **Redeploy** (bỏ cache build) để áp dụng.
+
+Nếu trước đó Vercel trả trang `404: NOT_FOUND`:
+
+1. Kiểm tra **Root Directory** đang là thư mục gốc, không phải thư mục con.
+2. Kiểm tra **Output Directory** đúng là `public`.
+3. Bảo đảm tệp `index.html` nằm ở gốc kho mã (chữ thường).
+4. Vào **Deployments → Redeploy**, chọn bỏ cache nếu cần.
+5. Kiểm tra log build có dòng `Đã tạo public/ với: index.html, assets, data, images`.
+
+Lưu ý: `public/` không nằm trong kho mã nên không thể mở trực tiếp bằng cách trỏ Vercel vào thư mục này nếu chưa chạy build.
+
+### Triển khai máy chủ Node khác
 
 - Cần máy chủ Node để dùng Gemini. Có thể triển khai bất kỳ dịch vụ hỗ trợ Node 20+ (Render, Railway, VPS…).
 - Có thể phục vụ như trang tĩnh nếu chỉ cần tra cứu, lọc và xuất dữ liệu; khi đó trang Hỏi đáp và nút đề xuất phiên âm sẽ hiển thị trạng thái chưa sẵn sàng.

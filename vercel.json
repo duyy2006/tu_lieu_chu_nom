@@ -4,9 +4,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "public",
   "functions": {
-    "api/config.mjs": {
-      "includeFiles": []
-    },
     "api/health.mjs": {
       "includeFiles": "data/**"
     },
@@ -14,10 +11,7 @@
       "includeFiles": "data/**"
     },
     "api/phien-am.mjs": {
-      "includeFiles": [
-        "data/**",
-        "images/**"
-      ]
+      "includeFiles": "{data,images}/**"
     }
   },
   "headers": [
