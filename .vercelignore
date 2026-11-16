@@ -1,0 +1,6 @@
+# Thư mục build được tạo lại trên Vercel, không cần tải lên.
+public/
+node_modules/
+.git/
+.env
+*.log
